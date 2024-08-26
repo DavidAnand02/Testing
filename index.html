@@ -19,15 +19,15 @@
         <p>This is the home page content.</p>
 
         <!-- Stripe Payment Button -->
-        <h2>Support Us</h2>
-        <p>Click the button below to make a payment:</p>
+        <script async
+          src="https://js.stripe.com/v3/buy-button.js">
+        </script>
+
         <stripe-buy-button
           buy-button-id="buy_btn_1Ps8ipETGotFQQGPZwDLvQ0K"
-          publishable-key="pk_test_51Pr0FzETGotFQQGPm1wBAjZ586OFinpXQovrmEYMBI0oYKpeRy0YD3cV9uYL8qBemiznV52YfX7rjy922mMjv3jK004XaI8Fpd"
-        ></stripe-buy-button>
+          publishable-key="pk_test_51Pr0FzETGotFQQGPm1wBAjZ586OFinpXQovrmEYMBI0oYKpeRy0YD3cV9uYL8qBemiznV52YfX7rjy922mMjv3jK004XaI8Fpd">
+        </stripe-buy-button>
     </main>
-
-    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
